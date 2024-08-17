@@ -1,0 +1,39 @@
+.olist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.btn {
+  max-width: 100%;
+  padding: 8px 16px;
+  outline: none;
+  border: 2px solid #000;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 12px -8px rgba(0, 0, 0, 1);
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  transition: border-color 250ms ease-in-out;
+}
+.btn:hover {
+  border-color: darkblue;
+  box-shadow: inset 2px 2px 12px -8px rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+.btn.good {
+  color: darkgreen;
+  background-color: rgb(149, 238, 176);
+}
+.btn.bad {
+  color: darkred;
+  background-color: #d78d8d;
+}
+.btn.neutral {
+  color: darkorange;
+  background-color: #e7e49a;
+}
+.btn.reset {
+  color: #1e1e1e;
+  background-color: #d9cece;
+}
